@@ -1,0 +1,392 @@
+@media screen and (max-width:1680px) {}
+
+/*max-width:1680px*/
+@media screen and (max-width:1440px) {
+	.single-about-img img {
+		max-width: 100%;
+	}
+
+	.single-about-img:before,
+	.about-list-icon {
+		width: 100%;
+	}
+}
+
+/*max-width:1440px*/
+
+@media screen and (max-width:1199px) {
+	nav.navbar.bootsnav ul.nav>li>a {
+		padding: 35px 8px;
+	}
+
+	.welcome-hero {
+		height: 768px;
+	}
+
+	.timeline-content span>i,
+	.experience-time span>i {
+		left: -15.5%;
+	}
+}
+
+/*max-width:1199px*/
+
+@media screen and (max-width:1024px) {}
+
+/*max-width:1024px*/
+
+@media screen and (max-width:1008px) {
+	nav.navbar.bootsnav ul.nav>li.dropdown span.megamenu-title {
+		display: block;
+		color: #43465d;
+		font-size: 18px;
+	}
+
+	nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li .megamenu-sub-title a {
+		margin-top: 20px;
+		font-size: 14px;
+	}
+
+	nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li .megamenu-sub-txt a {
+		margin-bottom: 15px;
+	}
+}
+
+/*max-width:1008px*/
+
+@media screen and (max-width:992px) {
+	nav.navbar.bootsnav .navbar-collapse.collapse.in {
+		padding-bottom: 30px;
+	}
+
+	nav.navbar.bootsnav .navbar-toggle {
+		display: inline-block;
+		float: right;
+		margin-right: 0;
+		margin-top: 21px;
+	}
+
+	nav.navbar.bootsnav .navbar-brand {
+		float: left !important;
+	}
+
+	nav.navbar.bootsnav ul.nav>li>a {
+		padding: 15px 0px;
+		border: transparent;
+	}
+}
+
+/*max-width:992px*/
+
+@media screen and (max-width:991px) {
+	.experience-time-responsive {
+		display: block;
+	}
+
+	.experience-time-main {
+		display: none;
+	}
+
+	.experience-time,
+	.timeline-content {
+		text-align: left;
+		margin-bottom: 20px;
+		margin-left: 40px;
+	}
+
+	.timeline-content span>i {
+		left: 0%;
+		top: -54%;
+	}
+
+	.experience-time span>i {
+		left: -6%;
+		top: 6%;
+	}
+
+	.main-timeline:before {
+		left: 0.4%;
+	}
+
+	.single-horizontal-timeline .experience-time,
+	.single-horizontal-timeline .timeline-content {
+		margin: 0;
+	}
+}
+
+/*max-width:991px*/
+
+@media screen and (max-width:768px) {}
+
+/*max-width:768px*/
+
+@media screen and (max-width:767px) {
+	.single-about-img {
+		max-width: 450px;
+	}
+
+	.experience-time span>i,
+	.timeline-content span>i,
+	.main-timeline:before {
+		display: none;
+	}
+
+	.experience-time,
+	.timeline-content {
+		margin-left: 0;
+	}
+
+	.isotope .item {
+		max-width: 350px;
+		margin: 0 auto 30px;
+	}
+
+	.single-profile {
+		max-width: 350px;
+		margin: 30px auto;
+		border: 0;
+	}
+
+	.profile-border {
+		border: 0;
+	}
+
+	.single-horizontal-timeline {
+		max-width: 350px;
+		margin: 30px auto;
+	}
+
+}
+
+/*max-width:767px*/
+
+@media screen and (max-width: 660px) {}
+
+/*max-width:660px*/
+
+@media screen and (max-width: 640px) {}
+
+/*max-width:640px*/
+
+@media screen and (max-width: 580px) {}
+
+/*max-width:580px*/
+
+@media screen and (max-width: 540px) {
+	.subscribe-title h2 {
+		font-size: 24px;
+	}
+
+}
+
+/*max-width:540px*/
+
+@media screen and (max-width: 480px) {}
+
+/*max-width:480px*/
+
+@media screen and (max-width: 440px) {}
+
+/*max-width:400px*/
+
+@media screen and (max-width:350px) {}
+
+/*max-width:350px*/
+
+
+@media screen and (max-width: 320px) {
+
+/* -------header------- */
+	.header-text h2 {
+
+		font-size: 30px;
+		font-weight: 400;
+		line-height: 1.5;
+
+	}
+
+	.header-text p {
+
+		font-size: 15px;
+		font-weight: 200px;
+		margin: 30px 0 60px;
+		letter-spacing: 3px;
+
+	}
+
+	.header-text a {
+		width: 120px;
+		height: 30px;
+		line-height: 30px;
+		border-radius: 4px;
+	}
+	/* -------about------- */
+	
+.about {
+    padding: 20px 0 50px;
+}
+.about-content {
+    padding-top: 50px;
+}
+.section-heading h2::before {
+    
+    width: 30%;
+    height: 3px;
+    bottom: 40px;
+}
+
+.section-heading::before {
+   
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    bottom: 32px;
+}
+.about-content {
+    padding-top: 20px;
+}
+
+.single-about-txt h3 {
+	text-align: center;
+    font-size: 14px;
+}
+.single-about-txt p {
+	text-align: center;
+    font-size: 13px;
+    color: #999fb3;
+    padding: 20px 0 25px;
+    border-bottom: 1px solid #999fb3;
+}
+
+.single-about-add-info {
+    margin: 8px 0;
+}
+
+.single-about-add-info p {
+    font-weight: 300;
+    border: 0;
+    padding: 0;
+    margin-top: 2px;
+}
+
+
+/* ---------------------education------------------------- */
+
+.education {
+    padding-top: 0px;
+}
+.education-horizontal-timeline {
+    padding: 10px 0;
+	margin-left: 10px;
+}
+
+/* ---------------------lerning------------------------- */
+
+.experience {
+    padding: 20px 0 10px;
+ 
+}
+.experience h2{
+	font-size: larger;
+}
+
+.experience .section-heading h2::before {
+    
+    width: 70%;
+    height: 3px;
+    bottom: 40px;
+}
+.experience-content {
+    padding-top: 20px;
+}
+.single-timeline-box {
+    margin-bottom: 30px;
+}
+
+
+/* ---------------------skills------------------------- */
+
+.skill-content {
+    padding: 20px 0 20px;
+}
+
+.single-skill-content {
+    padding-top: 30px;
+}
+
+.progress {
+    margin-bottom: 20px;
+}
+/* ---------------------project------------------------- */
+
+.portfolio {
+    padding: 30px 0 30px;
+}
+
+.portfolio-content {
+    padding-top: 20px;
+}
+/* ---------------------contact me------------------------- */
+
+.contact {
+    padding: 30px 0 30px;
+}
+
+.single-contact-box {
+    padding-top: 20px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.contact-form .form-group {
+    margin-bottom: 10px;
+
+}
+
+.contact .section-heading h2::before {
+    
+    width: 45%;
+    height: 3px;
+    bottom: 40px;
+}
+.contact .single-contact-btn{
+	width: 100px;
+	height: 40px;
+	border-radius:  20px 20px;
+	box-shadow: 20px;
+
+}
+
+.contact-add-info {
+    margin: 20px 0 20px;
+}
+
+
+.single-contact-add-info p {
+    margin-top: 5px;
+}
+
+.single-contact-add-info {
+    margin-bottom: 26px;
+}
+
+.hm-foot-icon{
+	margin-left: 30%;
+}
+
+
+/* --------------------- footer------------------------- */
+.hm-footer-copyright p {
+
+    text-transform: capitalize;
+padding-top: 180px;
+    font-size: small;
+}
+
+.hm-footer-copyright p a {
+    color: #0e020f;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+}
+
