@@ -121,82 +121,6 @@
 /*max-width:768px*/
 
 @media screen and (max-width:767px) {
-	.single-about-img {
-		max-width: 450px;
-	}
-
-	.experience-time span>i,
-	.timeline-content span>i,
-	.main-timeline:before {
-		display: none;
-	}
-
-	.experience-time,
-	.timeline-content {
-		margin-left: 0;
-	}
-
-	.isotope .item {
-		max-width: 350px;
-		margin: 0 auto 30px;
-	}
-
-	.single-profile {
-		max-width: 350px;
-		margin: 30px auto;
-		border: 0;
-	}
-
-	.profile-border {
-		border: 0;
-	}
-
-	.single-horizontal-timeline {
-		max-width: 350px;
-		margin: 30px auto;
-	}
-
-}
-
-/*max-width:767px*/
-
-@media screen and (max-width: 660px) {}
-
-/*max-width:660px*/
-
-@media screen and (max-width: 640px) {}
-
-/*max-width:640px*/
-
-@media screen and (max-width: 580px) {}
-
-/*max-width:580px*/
-
-@media screen and (max-width: 540px) {
-	.subscribe-title h2 {
-		font-size: 24px;
-	}
-
-}
-
-/*max-width:540px*/
-
-@media screen and (max-width: 480px) {}
-
-/*max-width:480px*/
-
-@media screen and (max-width: 440px) {}
-
-/*max-width:400px*/
-
-@media screen and (max-width:350px) {}
-
-/*max-width:350px*/
-
-
-@media screen and (max-width: 320px) {
-
-/* -------header------- */
 	.header-text h2 {
 
 		font-size: 30px;
@@ -387,6 +311,23 @@ padding-top: 180px;
     color: #0e020f;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+}
+
+
+@media screen and (max-width: 540px) {
+	.subscribe-title h2 {
+		font-size: 24px;
+	}
+
+}
+
+
+
+
+@media screen and (max-width: 320px) {
+
+/* -------header------- */
+	
 
 }
 
